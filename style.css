@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg.png);
+}
+
+/* navbar */
+
+.container-nav {
+    max-width: 200vh;
+    height: 10vh;
+    margin-top: -10px;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    border-radius: 15px;
+    background-color: #343131;
+}
+
+.navbar li{
+    position: relative;
+    display: inline-block;
+
+}
+.navbar li a{
+    margin: auto;
+    line-height: 10vh;
+    margin-right: 5vh;
+    text-decoration: none;
+    color: #F6F5F5;
+    transition: 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #F0EBE3;
+    color: #45474B;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 5vh;
+    margin-top: -7.5vh;
+}
+
+/* content */
+
+.container-cnt {
+    margin-top: 5vh;
+}
+
+.title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-cnt img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container-cnt p {
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    margin: 2vh 7vh 0px 7vh;
+    text-align: justify;
+    word-spacing: 6px;
+    text-indent: 30px;
+}
+
+/* footer */
+
+.container-ft {
+    background-color: #45474B;
+    height: 3vh;
+    bottom: 0;
+}
+
+.copy {
+    line-height: 3vh;
+    color: #F4F7ED;
+    text-align: center;
+}
